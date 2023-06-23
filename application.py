@@ -2,8 +2,8 @@ from fastapi import FastAPI
 
 from router import inference_router
 
-application = FastAPI()
+api = FastAPI()
 
-application.include_router(inference_router.router)
+api.include_router(inference_router.router)
 
 # uvicorn application:application
