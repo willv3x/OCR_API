@@ -6,4 +6,4 @@ api = FastAPI()
 
 api.include_router(inference_router.router)
 
-# uvicorn application:application
+# uvicorn application:api
