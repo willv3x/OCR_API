@@ -6,3 +6,4 @@ application = FastAPI()
 
 application.include_router(inference_router.router)
 
+# uvicorn application:application
